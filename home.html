@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale+1.0">
+		<title>Taylor Swift</title>
+		<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="navbar">
+	    <img src="img/logo.png" class="logo">
+		<nav>
+			<ul id="menuList">
+				<li><a href="home.html" class="active">Home</a></li>
+				<li><a href="#discography">Discography</a></li>
+				<li><a href="#event" class="nav-link">Event</a></li>
+			</ul>
+		</nav>
+		<img src="img/menu.png" class="menu-icon" onclick="togglemenu()">
+	</div>
+	
+	<div class="container">	
+	    <div class="row">
+			<div class="col-1">
+				<h2>TAYLOR SWIFT</h2>
+				<p>Welcome, swiftie!<br/>
+					Because life are happy, free, confused, and lonely at the same time.<br/>
+					Let's sing along together and have fun!</p>
+				<button onclick="playAudio()" type="button">Play</button>
+				<audio id="myAudio" src="audio/Fearless.mp3" preload="auto"></audio>
+			</div>
+		    <div class="col-2">
+				<img src="img\ts atw.jpg" class="controller">
+		    </div>
+	    </div>
+			
+		
+    <section id="event">
+        <center>
+            <h2>EVENT</h2>
+        </center>
+    </section>
+    <!--card--> 
+		<section class="section-card">
+            
+			<div class="card card-1">
+				<img src="img/img1.jpeg" alt="" class="card__img">
+				<div class="card__details">
+					<ul>
+						<li><h3>Midnights Mangrove for Taylor Swift</h3></li>
+						<li>Saturday, December 31st 2022</li>
+						<li>Mangunharjo Beach</li>
+					</ul>
+					<a href="#popup1" class="btn">View Details</a>
+				</div>
+			</div>
+			
+			<div class="card card-2">
+				<img src= "img/img2.jpeg" class="card__img">
+				<div class="card__details">
+					<ul>
+						<li><h3>Midnights Mayhem in Jakarta</h3></li>
+						<li>Saturday, December 17th 2022</li>
+						<li>20.00</li>
+						<li>LBRTY Jakarta</li>
+					</ul>
+					<a href="#popup2" class="btn">View Details</a>
+				</div>
+			</div>
+			
+			<div class="card card-3">
+				<img src="img/img3.jpg" alt="" class="card__img">
+				<div class="card__details">
+					<ul>
+						<li><h3>Midnights Symphony</h3></li>
+						<li>Friday, December 2nd 2022</li>
+						<li>19.00 - 20.30</li>
+						<li>Pacific Place Jakarta</li>
+					</ul>
+					<a href="#popup3" class="btn">View Details</a>
+				</div>
+			</div>
+			
+			<div class="card card-4">
+				<img src="img/img4.jpeg" alt="" class="card__img">
+				<div class="card__details">
+					<ul>
+						<li><h3>Midnights Memories : Bogor</h3></li>
+						<li>Saturday, November 19th 2022</li>
+						<li>19.00</li>
+						<li>Two Stories Bogor</li>
+					</ul>
+				<a href="#popup4" class="btn">View Details</a>
+				</div>
+			</div>
+			
+			<div class="card card-5">
+				<img src="img/img5.jpg" alt="" class="card__img">
+				<div class="card__details">
+					<ul>
+						<li><h3>Midnights Memories : Jakarta</h3></li>
+						<li>Friday, October 22nd 2022</li>
+						<li>19.00</li>
+						<li>Habitate Jakarta</li>
+					</ul>
+					<a href="#popup5" class="btn">View Details</a>
+				</div>
+			</div>
+			
+			<div class="card card-6">
+				<img src="img/img6.jpg" alt="" class="card__img">
+				<div class="card__details">
+					<ul>
+						<li><h3>Midnights Run Vol. 2</h3></li>
+						<li>Friday, October 21th 2022</li>
+						<li>18.00 - 20.00</li>
+						<li>Gelora Bung Karno Jakarta</li>
+					</ul>
+					<a href="#popup6" class="btn">View Details</a>
+				</div>
+			</div>
+		</section>	
+		
+		<!--popup-->
+		<div class="popup" id="popup1">
+			<div class="popup__content">
+				
+				<div class="popup__img">
+					<img src="img/img1.jpeg" alt="">
+				</div>
+				
+				<div class="popup__header">
+					<h3>Midnights Mangrove for Taylor Swift</h3>
+				</div>
+				
+				<div class="popup__text">
+					<p>Saturday, December 31st 2022<br/>
+                    Mangunharjo Beach</p>
+					<p> Dalam rangka perilisan album Midnights dan perayaan ulang tahun Taylor Swift yang akan datang, 
+					kami fanbase Taylor Swift Indonesia, bersama dengan Lindungi Hutan, mengajak seluruh Swifties 
+					di Indonesia untuk ikut melestarikan bumi dan memberikan hadiah ulang tahun untuk Taylor dengan 
+					cara berdonasi untuk penanaman pohon mangrove.</p>
+					<a href="https://m.lindungihutan.com/MidnightsMangrove" class=" popup__btn">Book Now</a>
+				</div>
+				<!--close button-->
+		        <a href="#" class="popup__close">&times;</a>
+			</div>
+		</div>
+		
+		<div class="popup" id="popup2">
+			<div class="popup__content">
+				
+				<div class="popup__img">
+					<img src="img/img2.jpeg" alt="">
+				</div>
+				
+				<div class="popup__header">
+					<h3>Midnights Mayhem in Jakarta</h3>
+				</div>
+				
+				<div class="popup__text">
+					<p>Saturday, December 17th 2022<br/>
+					20.00<br/>
+					LBRTY Jakarta</p>
+					<p>An enchanted Taylor Swift Karaoke Nights to commemorate the Midnights Album & Taylor Swift birthday. ✨✨</br>
+					Get ready to polish up real nice, Swifties! 💅🏻💄💋</p>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSd7a0Yw2PaMTFS6iuXWwy0QdO4fYIOmnZH_pWpBlWaRrSRr6A/closedform" class=" popup__btn">Book Now</a>
+				</div>
+				<!--close button-->
+		        <a href="#" class="popup__close">&times;</a>
+			</div>
+		</div>
+		
+		<!--div class="popup" id="popup3">
+			<div class="popup__content">
+				
+				<div class="popup__img">
+					<img src="img3.jpg" alt="">
+				</div>
+				
+				<div class="popup__header">
+					<h3>Midnights Symphony</h3>
+				</div>
+				
+				<div class="popup__text">
+					<p>Friday, December 2nd 2022<br/>
+                    19.00 - 20.30<br/>
+                    Pacific Place Jakarta</p>
+					<p>An enchanted event to celebrate the Midnights album and Taylor Swift’s birthday! 🎉</p>
+					<a href="" class=" popup__btn">Book Now</a>
+				</div>
+				<!--close button>
+		        <a href="#" class="popup__close">&times;</a>
+			</div>
+		</div-->
+		
+		<div class="popup" id="popup4">
+			<div class="popup__content">
+				
+				<div class="popup__img">
+					<img src="img/img4.jpeg" alt="">
+				</div>
+				
+				<div class="popup__header">
+					<h3>Midnights Memories : Bogor</h3>
+				</div>
+				
+				<div class="popup__text">
+					<p>Saturday, November 19th 2022<br/>
+					19.00<br/>
+					Two Stories Bogor</p>
+					<p>Taylor Swift Karaoke Night to celebrate the Midnights</br>
+					Album & the upcoming Taylor Swift The Eras Tour🎉</p>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdh5sIVGk5rNn8JsS60MEU85p8Fd9pDw4UXdQbocPBT9AGFFA/closedform" class=" popup__btn">Book Now</a>
+				</div>
+				<!--close button-->
+		        <a href="#" class="popup__close">&times;</a>
+			</div>
+		</div>
+		
+		<!--div class="popup" id="popup5">
+			<div class="popup__content">
+				
+				<div class="popup__img">
+					<img src="img5.jpg" alt="">
+				</div>
+				
+				<div class="popup__header">
+					<h3>Midnights Memories : Jakarta</h3>
+				</div>
+				
+				<div class="popup__text">
+					<p>Friday, October 22nd 2022<br/>
+                    19.00<br/>
+                    Habitate Jakarta</p>
+					<p>Taylor Swift Karaoke Night to celebrate the Midnights Album Release. 🎉</p>
+					<a href="" class=" popup__btn">Book Now</a>
+				</div>
+				<!--close button>
+		        <a href="#" class="popup__close">&times;</a>
+			</div>
+		</div-->
+		
+		<div class="popup" id="popup6">
+			<div class="popup__content">
+				
+				<div class="popup__img">
+					<img src="img/img6.jpg" alt="">
+				</div>
+				
+				<div class="popup__header">
+					<h3>MIDNIGHTS RUN Vol. 2</h3>
+				</div>
+				
+				<div class="popup__text">
+					<p>Friday, October 14th 2022<br/>
+                    18.00 - 20.00<br/>
+                    Gelora Bung Karno Jakarta</p>
+					<p>A gathering event to celebrate the #Midnights album release.</br>
+					Let’s escape for the night and running while we listen to the entire Midnights album.</p>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSc08rUM05k1NGHbd-QT_GSXrn18P1aqNc5pyrGB_CzUqx8Q4A/closedform" class=" popup__btn">Book Now</a>
+				</div>
+				<!--close button-->
+		        <a href="#" class="popup__close">&times;</a>
+			</div>
+		</div>
+		
+		<!--back to top button-->
+		<a href="#" id="backtotop" style="display: none;">
+			<ion-icon name="arrow-up-outline"></ion-icon>
+		</a>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(window).scroll(function(){
+					if($(this).scrollTop()> 100){
+						$('#backtotop').fadeIn();
+					}else{
+						$('#backtotop').fadeOut();
+					}
+				});
+				$('#backtotop').click(function(){
+					$('html, body').animate({scrollTop:0}, 600);
+					return false;
+				});
+			});
+		</script>
+		
+		<script type="text/javascript">
+			var menuList = document.getElementById("menuList");
+			menuList.style.maxHeight = "0px";
+			function togglemenu(){
+				if(menuList.style.maxHeight == "0px"){
+					menuList.style.maxHeight = "130px";
+				} else {
+					menuList.style.maxHeight = "0px";
+				}
+			}
+
+			function playAudio(){
+				return myAudio.paused ? myAudio.play() : myAudio.pause();
+			};
+			
+		</script>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/taylorswift/?hl=id"> <img src="img/instagram.png"> </a>
+                <a href="https://twitter.com/taylorswift13"> <img src="img/twitter.png"> </a>
+            </div>
+        </div>
+	</body>
+</html>
